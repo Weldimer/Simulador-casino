@@ -1,0 +1,27 @@
+{
+  "20.0": {
+    "ruin_probability": 0.52,
+    "avg_final_balance": 19.7744,
+    "avg_spins_survived": 49.97
+  },
+  "50.0": {
+    "ruin_probability": 0.0,
+    "avg_final_balance": 50.1016,
+    "avg_spins_survived": 50.0
+  },
+  "100.0": {
+    "ruin_probability": 0.0,
+    "avg_final_balance": 100.1184,
+    "avg_spins_survived": 50.0
+  },
+  "200.0": {
+    "ruin_probability": 0.0,
+    "avg_final_balance": 200.3496,
+    "avg_spins_survived": 50.0
+  },
+  "500.0": {
+    "ruin_probability": 0.0,
+    "avg_final_balance": 499.8232,
+    "avg_spins_survived": 50.0
+  }
+}
