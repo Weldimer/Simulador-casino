@@ -1,0 +1,41 @@
+name: Bot Automatizado de Entrenamiento Neuronal
+
+on:
+  schedule:
+    # Se ejecuta automáticamente todos los lunes a medianoche (o puedes ajustarlo)
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Permite dispararlo manualmente desde la web de GitHub
+
+jobs:
+  train-neural-model:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar repositorio
+      uses: actions/checkout@v4
+
+    - name: Configurar entorno Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Instalar dependencias científicas
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt scikit-learn
+
+    - name: Ejecutar script de entrenamiento autónomo
+      run: |
+        python src/casino_sim_v3.py
+
+    - name: Configurar identidad de Git para el Bot
+      run: |
+        git config --global user.name "Casino AI Bot"
+        git config --global user.email "bot@casino.simulation"
+
+    - name: Auto-commit y subida de modelos y reportes actualizados
+      run: |
+        git status
+        git add models/ reports/
+        git diff-index --quiet HEAD || git commit -m "🤖 Bot: Reentrenamiento automático de red neuronal y actualización de reportes"
+        git push
