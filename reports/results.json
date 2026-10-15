@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "seed": 1,
+    "note": "Modelo educativo hipotético."
+  },
+  "roulette_learning": {
+    "theoretical_ev": -0.02702702702702703,
+    "learned_ev": -0.02994,
+    "test_ev": -0.0285,
+    "absolute_error": 0.002912972972972973
+  },
+  "slot_rtp_exact": 0.9422153635116598,
+  "craps_ev_exact": -0.014141414141414142,
+  "fija": {
+    "positive_pct": 35.833333333333336,
+    "unable_to_continue_pct": 0.0,
+    "mean_profit": -0.894,
+    "median_profit": 0.0
+  },
+  "martingala": {
+    "positive_pct": 84.1,
+    "unable_to_continue_pct": 0.5666666666666667,
+    "mean_profit": -2.679,
+    "median_profit": 13.0
+  },
+  "dalembert": {
+    "positive_pct": 60.13333333333334,
+    "unable_to_continue_pct": 0.06666666666666667,
+    "mean_profit": -2.744,
+    "median_profit": 5.0
+  }
+}
