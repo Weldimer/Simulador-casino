@@ -1,0 +1,22 @@
+{
+  "bankroll_20.0": {
+    "STOP_LOSS": 182,
+    "STOP_WIN": 127,
+    "CIRCUIT_BREAKER": 0
+  },
+  "bankroll_50.0": {
+    "STOP_LOSS": 2,
+    "STOP_WIN": 7,
+    "CIRCUIT_BREAKER": 0
+  },
+  "bankroll_100.0": {
+    "STOP_LOSS": 0,
+    "STOP_WIN": 0,
+    "CIRCUIT_BREAKER": 0
+  },
+  "bankroll_500.0": {
+    "STOP_LOSS": 0,
+    "STOP_WIN": 0,
+    "CIRCUIT_BREAKER": 0
+  }
+}
