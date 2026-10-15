@@ -1,0 +1,7 @@
+{
+  "version": "V3",
+  "model": "MLP supervised",
+  "seed": 42,
+  "mae_rtp": 0.023191504180431366,
+  "mae_ruin": 0.03287764638662338
+}
