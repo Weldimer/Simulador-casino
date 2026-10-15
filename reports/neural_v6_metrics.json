@@ -1,0 +1,7 @@
+{
+  "version": "V6 Neural Risk Engine",
+  "training_scenarios": 560,
+  "mae_ruin_probability": 0.03446124121546745,
+  "mae_avg_profit": 0.7646697759628296,
+  "status": "Automatic training complete"
+}
