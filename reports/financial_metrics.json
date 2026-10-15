@@ -1,0 +1,20 @@
+{
+  "Fija": {
+    "mean_profit": 0.284,
+    "win_rate_session": 46.800000000000004,
+    "ruin_probability": 0.0,
+    "avg_max_drawdown": 13.425623765440092
+  },
+  "Agresiva": {
+    "mean_profit": 0.19466666666666665,
+    "win_rate_session": 47.86666666666667,
+    "ruin_probability": 0.0,
+    "avg_max_drawdown": 25.946732349619637
+  },
+  "Conservadora": {
+    "mean_profit": 0.5186666666666667,
+    "win_rate_session": 50.13333333333333,
+    "ruin_probability": 0.0,
+    "avg_max_drawdown": 6.66899527053589
+  }
+}
